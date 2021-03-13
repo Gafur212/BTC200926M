@@ -9,7 +9,8 @@ public class BaseTest {
 	WebDriver dr;
 	public void openBrowser(String b) {
 		 if(b.equals("chrome")) {
-			   dr=new ChromeDriver();
+			 System.setProperty("","");
+			 dr=new ChromeDriver();
 		   }else  if(b.equals("firefox")) {
 			   dr=new FirefoxDriver();
 		   }
