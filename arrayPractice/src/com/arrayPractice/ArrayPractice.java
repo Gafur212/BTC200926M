@@ -2,7 +2,7 @@ package com.arrayPractice;
 
 public class ArrayPractice {
 
-	String color[]= {"red","blue"};
+	String color[]= {"red","blue","green"};
 	String s[]=new String[3];
 	String s1;
 	int b;
